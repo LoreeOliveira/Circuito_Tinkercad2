@@ -2,7 +2,7 @@
 
 Este projeto consiste em um sistema de controle de iluminação simples utilizando a plataforma Arduino. O objetivo é acionar um LED por meio de um botão (push-button), aplicando conceitos fundamentais de eletrônica e programação em C++.
 
-##  Integrantes do Grupo
+## 👥 Integrantes do Grupo
 O projeto foi desenvolvido em trio por:
 * **Caline Myrella**: [github.com/CalineMyrella](https://github.com/CalineMyrella)
 * **Maria Eduarda**: [github.com/Mariabrito09](https://github.com/Mariabrito09)
@@ -13,21 +13,23 @@ O projeto foi desenvolvido em trio por:
 * **Tinkercad**: Plataforma para simulação do circuito e código.
 * **Linguagem C++**: Base para a lógica de programação da Arduino IDE.
 
-## 📚 Pesquisa Técnica: Comandos Utilizados
-Para o funcionamento deste sistema, foram utilizados os seguintes comandos e constantes, conforme detalhado na pesquisa técnica:
+## 📚 Pesquisa Técnica: Comandos e Constantes
+Abaixo, apresentamos a finalidade dos principais comandos utilizados no código, com base na pesquisa técnica realizada pelo grupo:
 
-* [cite_start]**`pinMode()`**: Responsável por atribuir uma funcionalidade ao pino do Arduino (definindo se será entrada `INPUT` ou saída `OUTPUT`), devendo ser declarado dentro da função `setup()`[cite: 29, 30].
-* [cite_start]**`digitalRead()`**: Informa se o pino apresenta um valor baixo (`LOW`) ou um valor alto (`HIGH`)[cite: 32, 33].
-* [cite_start]**`digitalWrite()`**: Aciona um valor `HIGH` ou `LOW` em um pino digital configurado como saída[cite: 35, 36, 37].
-* [cite_start]**`if`**: Estrutura de decisão que examina condições e decide quais instruções serão executadas[cite: 39, 40].
-* [cite_start]**`delay()`**: Pausa a execução do programa por um tempo específico em milissegundos, controlando o tempo de loops ou intervalos entre comandos[cite: 42, 43, 44].
-* [cite_start]**`HIGH`**: Macro que define um estado lógico alto (ligado) em um pino digital[cite: 46, 47].
-* [cite_start]**`LOW`**: Constante pré-definida que representa um estado lógico baixo; em casos de LED, configura-o como desligado[cite: 49, 50, 51].
+| Comando / Constante | Descrição e Finalidade |
+| :--- | :--- |
+| **`pinMode()`** | Atribui uma funcionalidade ao pino (entrada `INPUT` ou saída `OUTPUT`). [cite_start]Deve ser definido no `setup()`[cite: 3, 4]. |
+| **`digitalRead()`** | [cite_start]Lê o estado de um pino digital, informando se o valor é alto (`HIGH`) ou baixo (`LOW`)[cite: 7]. |
+| **`digitalWrite()`** | [cite_start]Envia um sinal `HIGH` ou `LOW` para um pino configurado como saída[cite: 10, 11]. |
+| **`if`** | [cite_start]Estrutura de decisão que executa instruções baseadas em condições específicas[cite: 14]. |
+| **`delay()`** | [cite_start]Pausa a execução do programa por um tempo determinado em milissegundos[cite: 17]. |
+| **`HIGH`** | [cite_start]Macro que define o estado lógico alto (ligado/presença de tensão)[cite: 21]. |
+| **`LOW`** | [cite_start]Macro que define o estado lógico baixo (desligado/ausência de tensão)[cite: 24, 25]. |
 
 ## 📂 Estrutura do Repositório
 * `/Estrutura do Projeto`: Arquivos de organização.
 * `Explicação do funcionamento do sistema.pdf`: Documento detalhando a lógica do circuito.
-* `Pesquisa Técnica.docx`: Documentação teórica sobre os comandos utilizados.
+* `Pesquisa Técnica.docx`: Documentação teórica completa.
 
 ## 🚀 Como visualizar
-Você pode acessar o circuito simulado diretamente no Tinkercad através do link disponível nos arquivos do projeto.
+Você pode acessar o circuito simulado diretamente no Tinkercad através do link disponível nos arquivos do projeto ou conferindo o código na branch principal.

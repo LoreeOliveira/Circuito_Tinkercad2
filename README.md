@@ -18,7 +18,7 @@ Abaixo, apresentamos a finalidade dos principais comandos utilizados no código,
 
 | Comando / Constante | Descrição e Finalidade |
 | :--- | :--- |
-| **`pinMode()`** | Atribui uma funcionalidade ao pino (entrada `INPUT` ou saída `OUTPUT`). [cite_start]Deve ser definido no `setup()`[cite: 3, 4]. |
+| **`pinMode()`** | Atribui uma funcionalidade ao pino (entrada `INPUT` ou saída `OUTPUT`). Deve ser definido no `setup()`. |
 | **`digitalRead()`** | Lê o estado de um pino digital, informando se o valor é alto (`HIGH`) ou baixo (`LOW`). |
 | **`digitalWrite()`** | Envia um sinal `HIGH` ou `LOW` para um pino configurado como saída. |
 | **`if`** | Estrutura de decisão que executa instruções baseadas em condições específicas. |

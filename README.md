@@ -19,17 +19,17 @@ Abaixo, apresentamos a finalidade dos principais comandos utilizados no código,
 | Comando / Constante | Descrição e Finalidade |
 | :--- | :--- |
 | **`pinMode()`** | Atribui uma funcionalidade ao pino (entrada `INPUT` ou saída `OUTPUT`). [cite_start]Deve ser definido no `setup()`[cite: 3, 4]. |
-| **`digitalRead()`** | Lê o estado de um pino digital, informando se o valor é alto (`HIGH`) ou baixo (`LOW`)[cite: 7]. |
-| **`digitalWrite()`** | Envia um sinal `HIGH` ou `LOW` para um pino configurado como saída[cite: 10, 11]. |
-| **`if`** | Estrutura de decisão que executa instruções baseadas em condições específicas[cite: 14]. |
-| **`delay()`** | Pausa a execução do programa por um tempo determinado em milissegundos[cite: 17]. |
-| **`HIGH`** | Macro que define o estado lógico alto (ligado/presença de tensão)[cite: 21]. |
-| **`LOW`** | Macro que define o estado lógico baixo (desligado/ausência de tensão)[cite: 24, 25]. |
+| **`digitalRead()`** | Lê o estado de um pino digital, informando se o valor é alto (`HIGH`) ou baixo (`LOW`). |
+| **`digitalWrite()`** | Envia um sinal `HIGH` ou `LOW` para um pino configurado como saída. |
+| **`if`** | Estrutura de decisão que executa instruções baseadas em condições específicas. |
+| **`delay()`** | Pausa a execução do programa por um tempo determinado em milissegundos. |
+| **`HIGH`** | Macro que define o estado lógico alto (ligado/presença de tensão). |
+| **`LOW`** | Macro que define o estado lógico baixo (desligado/ausência de tensão) |
 
 ## 📂 Estrutura do Repositório
-* `/Estrutura do Projeto`: Arquivos de organização.
+* `Estrutura do Projeto`: Arquivos de organização.
 * `Explicação do funcionamento do sistema.pdf`: Documento detalhando a lógica do circuito.
 * `Pesquisa Técnica.docx`: Documentação teórica completa.
 
-## 🚀 Como visualizar
+## Como visualizar
 Você pode acessar o circuito simulado diretamente no Tinkercad através do link disponível nos arquivos do projeto ou conferindo o código na branch principal.

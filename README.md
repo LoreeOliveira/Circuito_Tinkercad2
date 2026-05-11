@@ -19,12 +19,12 @@ Abaixo, apresentamos a finalidade dos principais comandos utilizados no código,
 | Comando / Constante | Descrição e Finalidade |
 | :--- | :--- |
 | **`pinMode()`** | Atribui uma funcionalidade ao pino (entrada `INPUT` ou saída `OUTPUT`). [cite_start]Deve ser definido no `setup()`[cite: 3, 4]. |
-| **`digitalRead()`** | [cite_start]Lê o estado de um pino digital, informando se o valor é alto (`HIGH`) ou baixo (`LOW`)[cite: 7]. |
-| **`digitalWrite()`** | [cite_start]Envia um sinal `HIGH` ou `LOW` para um pino configurado como saída[cite: 10, 11]. |
-| **`if`** | [cite_start]Estrutura de decisão que executa instruções baseadas em condições específicas[cite: 14]. |
-| **`delay()`** | [cite_start]Pausa a execução do programa por um tempo determinado em milissegundos[cite: 17]. |
-| **`HIGH`** | [cite_start]Macro que define o estado lógico alto (ligado/presença de tensão)[cite: 21]. |
-| **`LOW`** | [cite_start]Macro que define o estado lógico baixo (desligado/ausência de tensão)[cite: 24, 25]. |
+| **`digitalRead()`** | Lê o estado de um pino digital, informando se o valor é alto (`HIGH`) ou baixo (`LOW`)[cite: 7]. |
+| **`digitalWrite()`** | Envia um sinal `HIGH` ou `LOW` para um pino configurado como saída[cite: 10, 11]. |
+| **`if`** | Estrutura de decisão que executa instruções baseadas em condições específicas[cite: 14]. |
+| **`delay()`** | Pausa a execução do programa por um tempo determinado em milissegundos[cite: 17]. |
+| **`HIGH`** | Macro que define o estado lógico alto (ligado/presença de tensão)[cite: 21]. |
+| **`LOW`** | Macro que define o estado lógico baixo (desligado/ausência de tensão)[cite: 24, 25]. |
 
 ## 📂 Estrutura do Repositório
 * `/Estrutura do Projeto`: Arquivos de organização.
